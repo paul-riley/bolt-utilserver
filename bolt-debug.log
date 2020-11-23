@@ -1,0 +1,9 @@
+2020-11-18T14:54:02.261245 INFO   [main] [Bolt::CLI] Loaded project from '/Users/paulriley/projects/utilserver'
+2020-11-18T14:54:03.616097 DEBUG  [main] [Bolt::PAL] Loading modules from /opt/puppetlabs/bolt/lib/ruby/gems/2.5.0/gems/bolt-2.33.2/bolt-modules:/Users/paulriley/projects/utilserver/modules:/Users/paulriley/projects/utilserver/site-modules:/Users/paulriley/projects/utilserver/site:/opt/puppetlabs/bolt/lib/ruby/gems/2.5.0/gems/bolt-2.33.2/modules
+2020-11-18T14:54:03.617419 DEBUG  [main] [Bolt::Inventory] Loaded inventory from /Users/paulriley/projects/utilserver/inventory.yaml
+2020-11-18T14:54:03.621192 DEBUG  [main] [Bolt::Executor] Started with 36 max thread(s)
+2020-11-18T14:54:03.623587 INFO   [event-publisher] [Bolt::Outputter::Logger] Starting: command 'whoami' on utilserver
+2020-11-18T14:54:03.773001 INFO   [] [Bolt::Executor] Running command 'whoami' on ["utilserver"]
+2020-11-18T14:54:03.773126 DEBUG  [] [Bolt::Transport::SSH] Running command 'whoami' on utilserver
+2020-11-18T14:54:05.162780 INFO   [] [Bolt::Executor] {"target":"utilserver","action":"command","object":"whoami","status":"success","value":{"stdout":"root\n","stderr":"","exit_code":0}}
+2020-11-18T14:54:05.163584 INFO   [event-publisher] [Bolt::Outputter::Logger] Finished: command 'whoami' with 0 failures in 1.54 sec
